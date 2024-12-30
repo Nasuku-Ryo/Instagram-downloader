@@ -4,7 +4,7 @@ Instaloader is a powerful tool to download Instagram posts, profiles, stories, a
 
 # Tabel of Contents
 - [installation](#installation)
-- Basic Usage
+- [Basic Usage](#Basic-Usage)
 - Downloading Profiles
   - Downloading Profile Picture Only
   - Downloading Latest Posts
@@ -22,3 +22,30 @@ To download an Instagram profile, use the following command:
 pip install instaloader
 ```
 Ensure Python is installed and added to your PATH.
+
+# Basic Usage
+To download an Instagram profile, use the following command:
+```
+instaloader profile <username>
+```
+
+# Downloading Profiles
+## Downloading Profile Picture Only
+```
+instaloader --no-posts --profile-pic-only profile nasa
+```
+## Downloading Latest Posts
+```
+instaloader --count=5 profile nasa
+```
+This downloads the latest 5 posts from the profile.
+
+
+
+
+
+
+
+
+
+
