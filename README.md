@@ -4,3 +4,11 @@ Instaloader is a powerful tool to download Instagram posts, profiles, stories, a
 
 # Tabel of Contents
 - installation
+- Basic Usage
+- Downloading Profiles
+- Advanced Options
+- Downloading Stories and Highlights
+- Saving to Specific Directories
+- Automating Downloads
+- Notes
+
